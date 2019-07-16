@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		F5F2B16F22DD7DDE00FBC511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B16E22DD7DDE00FBC511 /* AppDelegate.swift */; };
-		F5F2B17122DD7DDE00FBC511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B17022DD7DDE00FBC511 /* ViewController.swift */; };
 		F5F2B17422DD7DDE00FBC511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2B17222DD7DDE00FBC511 /* Main.storyboard */; };
 		F5F2B17622DD7DE000FBC511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F2B17522DD7DE000FBC511 /* Assets.xcassets */; };
 		F5F2B17922DD7DE000FBC511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2B17722DD7DE000FBC511 /* LaunchScreen.storyboard */; };
+		F5F2B18D22DDA10800FBC511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B18122DDA10800FBC511 /* ViewController.swift */; };
+		F5F2B18E22DDA10800FBC511 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B18222DDA10800FBC511 /* TestController.swift */; };
+		F5F2B18F22DDA10800FBC511 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B18322DDA10800FBC511 /* TabController.swift */; };
+		F5F2B19022DDA10800FBC511 /* PureSwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B18422DDA10800FBC511 /* PureSwiftClass.swift */; };
+		F5F2B19122DDA10800FBC511 /* UIViewController+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B18622DDA10800FBC511 /* UIViewController+Load.swift */; };
+		F5F2B19222DDA10800FBC511 /* LoadForSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B18922DDA10800FBC511 /* LoadForSwift.m */; };
+		F5F2B19322DDA10800FBC511 /* LeakChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B18B22DDA10800FBC511 /* LeakChecker.swift */; };
+		F5F2B19422DDA10800FBC511 /* Bobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B18C22DDA10800FBC511 /* Bobber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5F2B16B22DD7DDE00FBC511 /* memory_leak_watchdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory_leak_watchdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F2B16E22DD7DDE00FBC511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5F2B17022DD7DDE00FBC511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5F2B17322DD7DDE00FBC511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5F2B17522DD7DE000FBC511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5F2B17822DD7DE000FBC511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5F2B17A22DD7DE000FBC511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F2B18122DDA10800FBC511 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5F2B18222DDA10800FBC511 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		F5F2B18322DDA10800FBC511 /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		F5F2B18422DDA10800FBC511 /* PureSwiftClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PureSwiftClass.swift; sourceTree = "<group>"; };
+		F5F2B18622DDA10800FBC511 /* UIViewController+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Load.swift"; sourceTree = "<group>"; };
+		F5F2B18722DDA10800FBC511 /* LoadForSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadForSwift.h; sourceTree = "<group>"; };
+		F5F2B18822DDA10800FBC511 /* exercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "exercise-Bridging-Header.h"; sourceTree = "<group>"; };
+		F5F2B18922DDA10800FBC511 /* LoadForSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadForSwift.m; sourceTree = "<group>"; };
+		F5F2B18B22DDA10800FBC511 /* LeakChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeakChecker.swift; sourceTree = "<group>"; };
+		F5F2B18C22DDA10800FBC511 /* Bobber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bobber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,47 @@
 		F5F2B16D22DD7DDE00FBC511 /* memory_leak_watchdog */ = {
 			isa = PBXGroup;
 			children = (
+				F5F2B18A22DDA10800FBC511 /* MemoryCheck */,
+				F5F2B18522DDA10800FBC511 /* Swizzle */,
+				F5F2B18022DDA10800FBC511 /* Test */,
 				F5F2B16E22DD7DDE00FBC511 /* AppDelegate.swift */,
-				F5F2B17022DD7DDE00FBC511 /* ViewController.swift */,
 				F5F2B17222DD7DDE00FBC511 /* Main.storyboard */,
 				F5F2B17522DD7DE000FBC511 /* Assets.xcassets */,
 				F5F2B17722DD7DE000FBC511 /* LaunchScreen.storyboard */,
 				F5F2B17A22DD7DE000FBC511 /* Info.plist */,
 			);
 			path = memory_leak_watchdog;
+			sourceTree = "<group>";
+		};
+		F5F2B18022DDA10800FBC511 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2B18122DDA10800FBC511 /* ViewController.swift */,
+				F5F2B18222DDA10800FBC511 /* TestController.swift */,
+				F5F2B18322DDA10800FBC511 /* TabController.swift */,
+				F5F2B18422DDA10800FBC511 /* PureSwiftClass.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		F5F2B18522DDA10800FBC511 /* Swizzle */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2B18622DDA10800FBC511 /* UIViewController+Load.swift */,
+				F5F2B18722DDA10800FBC511 /* LoadForSwift.h */,
+				F5F2B18922DDA10800FBC511 /* LoadForSwift.m */,
+				F5F2B18822DDA10800FBC511 /* exercise-Bridging-Header.h */,
+			);
+			path = Swizzle;
+			sourceTree = "<group>";
+		};
+		F5F2B18A22DDA10800FBC511 /* MemoryCheck */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2B18B22DDA10800FBC511 /* LeakChecker.swift */,
+				F5F2B18C22DDA10800FBC511 /* Bobber.swift */,
+			);
+			path = MemoryCheck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5F2B17122DD7DDE00FBC511 /* ViewController.swift in Sources */,
+				F5F2B19122DDA10800FBC511 /* UIViewController+Load.swift in Sources */,
+				F5F2B18F22DDA10800FBC511 /* TabController.swift in Sources */,
+				F5F2B18D22DDA10800FBC511 /* ViewController.swift in Sources */,
 				F5F2B16F22DD7DDE00FBC511 /* AppDelegate.swift in Sources */,
+				F5F2B19222DDA10800FBC511 /* LoadForSwift.m in Sources */,
+				F5F2B19022DDA10800FBC511 /* PureSwiftClass.swift in Sources */,
+				F5F2B18E22DDA10800FBC511 /* TestController.swift in Sources */,
+				F5F2B19322DDA10800FBC511 /* LeakChecker.swift in Sources */,
+				F5F2B19422DDA10800FBC511 /* Bobber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +346,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baber.memory-leak-watchdog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "memory_leak_watchdog/Swizzle/exercise-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baber.memory-leak-watchdog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "memory_leak_watchdog/Swizzle/exercise-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
