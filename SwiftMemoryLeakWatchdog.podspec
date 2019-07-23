@@ -10,7 +10,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/countryLane/memory_leak_watchdog.git", :tag => "0.0.1" }
-  spec.source_files  = "memory_leak_watchdog/MemoryCheck/**/*.{h, m, swift}", "memory_leak_watchdog/Swizzle/**/*.{h, m, swift}"
+  spec.source_files = "memory_leak_watchdog/MemoryCheck/**/*.{h, m, swift}", "memory_leak_watchdog/Swizzle/**/*.{h, m, swift}"
+  spec.resources    = "*.{gif, jpg}"
   # spec.public_header_files = "Classes/**/*.h"
 
   spec.framework  = "Foundation", "UIKit"
